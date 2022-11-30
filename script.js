@@ -86,6 +86,9 @@ function displayMovieDetails(details) {
         <p class = "awards"><b><i class = "fas fa-award"></i></b> ${
           details.Awards
         }</p>
+        <p>
+        <a class="rated"  style="color:white" href="./addtowatchlist.php?id=${details.Title}">Add To Watch list</a>
+        </p>
     </div>
     `;
 }

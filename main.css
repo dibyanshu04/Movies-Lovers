@@ -4,7 +4,7 @@
     --md-dark-color: #1d1d1d;
     --dark-color: #171717;
     --light-dark-color: #292929;
-    --yellow-color: #d4aa11;
+    --red-color: #f15858;
 }
 
 * {
@@ -57,14 +57,14 @@ img {
     border-bottom: 1px solid var(--light-dark-color);
 }
 
-.logo p {
+.logo a {
     font-size: 2rem;
     color: #fff;
     font-weight: bold;
 }
 
-.logo p span {
-    color: var(--yellow-color);
+.logo a span {
+    color: var(--red-color);
 }
 
 .search-element {
@@ -167,7 +167,7 @@ img {
 }
 
 .search-list::-webkit-scrollbar-thumb {
-    background-color: var(--yellow-color);
+    background-color: var(--red-color);
     outline: none;
     border-radius: 10px;
 }
@@ -197,7 +197,7 @@ img {
 /* movie info stylings */
 .movie-title {
     font-size: 2rem;
-    color: var(--yellow-color);
+    color: var(--red-color);
 }
 
 .movie-misc-info {
@@ -219,7 +219,7 @@ img {
 }
 
 .movie-info .rated {
-    background-color: var(--yellow-color);
+    background-color: var(--red-color);
     padding: 0.4rem;
     margin: 0 0.4rem;
     border-radius: 3px;
@@ -249,7 +249,7 @@ img {
 }
 
 .movie-info .language {
-    color: var(--yellow-color);
+    color: var(--red-color);
     font-style: italic;
 }
 
@@ -259,7 +259,7 @@ img {
 }
 
 .movie-info .awards i {
-    color: var(--yellow-color);
+    color: var(--red-color);
     margin: 1rem 0.7rem 0 0;
 }
 
@@ -339,4 +339,21 @@ img {
         padding-left: 0;
         margin-left: 0;
     }
+}
+.footer{
+    margin-top: -2.5rem;
+    padding: 0.5rem;
+    border: 2px solid var(--red-color);
+    color: white;
+    text-align: center;
+    background-color: var(--md-dark-color);
+}
+
+.rightbox{
+    float: right;
+    margin: 1rem;
+}
+.rightbox a{
+    padding: 0.5rem;
+    border: 1px solid white ;
 }
